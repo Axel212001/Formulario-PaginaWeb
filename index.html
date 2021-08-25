@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id="encabezado">
+            <article>
+                <div id="content-encabezado">
+                    <div id="item1">
+                        <img id="compu1" src="assets/img/compu1.png" alt="computadora 1">
+                    </div>
+                    <div id="item2">
+                        <h1 id="title">ENCUESTA PARA<br>DESARROLLADORES WEB</h1>
+                        <p id="description">Encuesta para saber que tecnologiás se usan más en desarrollo web</p>
+                    </div>
+                    <div id="item3">
+                        <img id="compu2" src="assets/img/compu2.png" alt="computadora 2">
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <form id="survery-form">
+                <div id="content-componentes">
+                    <div class="campoTexto">
+                        <label id="name-label" class="labelText" for="name"><b>Nombre completo</b></label>
+                        <input class="text" type="text" name="name" id="name" placeholder="Ingrese su nombre completo" required>
+                    </div>
+                    <div class="campoTexto">
+                        <label id="emial-label" class="labelText" for="email"><b>Correo Electronico</b></label>
+                        <input class="text" type="email" name="email" id="email" placeholder="Ingrese su correo electronico" required>
+                    </div>
+                    <div class="campoTexto">
+                        <label id="number-label" class="labelText" for="number"><b>Años de experiencia</b></label>
+                        <input type="number" class="text" name="number" id="number" min="1" max="50" placeholder="Ingrese sus años de experiencia">
+                    </div>
+                    <div class="campoTexto">
+                        <label class="labelText"><b>¿En que area del desarrollo web se dedica?</b></label>
+                        <select  class="text"  name="role" id="dropdown" required>
+                            <option value="opción">Seleccione una Opción</option>
+                            <option value="diseñador web">Diseñador Web</option>
+                            <option value="Community Manager">Community Manager</option>
+                            <option value="desarrolladorFront-ned">Desarrollador Front-End</option>
+                            <option value="desarrolladorBck-end">Desarrollador Back-end</option>
+                        </select>
+                    </div>
+                    <div class="campoTexto">
+                        <label  class="labelText" ><b>¿El desarrollo web es la mejor opción para los recien egeresados?</b></label>
+                        <label class="labelRadio">
+                            <input name="radio" type="radio" class="radio-button" value="Si" checked >
+                        Si, porque es lo que más se solicita actualmente</label>
+
+                        <label class="labelRadio">
+                            <input name="radio" type="radio" class="radio-button" name="" value="No">
+                        No, porque es muy dificil aprender y conseguir trabajo</label>
+                    </div>
+
+                    <div class="campoTexto">
+                        <label class="labelText"><b>¿Seleccionar las tecnologias que recomendarias para conseguir trabajo como desarrollador web?</b></label>
+                        <label class="labelRadio">
+                            <input name="checkbox" type="checkbox" class="checkbox-group" value="HTML5">
+                            HTML5 
+                        </label><br>
+                        <label class="labelRadio">
+                            <input name="checkbox" type="checkbox" class="checkbox-group" value="CSS3">
+                            CSS3 
+                        </label><br>
+                        <label class="labelRadio">
+                            <input name="checkbox" type="checkbox" class="checkbox-group" value="JavaScript">
+                            JavaScript 
+                        </label><br>
+                        <label class="labelRadio">
+                            <input name="checkbox" type="checkbox" class="checkbox-group" value="PHP">
+                            PHP
+                        </label><br>
+                        <label class="labelRadio">
+                            <input name="checkbox" type="checkbox" class="checkbox-group" value="Framework-frontend">
+                            Frameworks para Front-End
+                        </label><br>
+                        <label class="labelRadio">
+                            <input name="checkbox" type="checkbox" class="checkbox-group" value="Framework-backend">
+                            Frameworks para Back-End
+                        </label><br>
+                        <label class="labelRadio">
+                            <input name="checkbox" type="checkbox" class="checkbox-group" value="librerias">
+                            Librerias de estilo
+                        </label><br><br>
+                        <div id="campoAreaText">
+                            <label class="labelText"><b>Escriba alguna sugerencia ó opinión</b></label>
+                            <textarea class="text" id="" name="comentario" placeholder="Ingrese una opinión ó sugerencia"></textarea>
+                        </div>
+                    </div>
+                    <div id="content-button">
+                        <input type="submit" id="submit"> 
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

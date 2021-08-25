@@ -1,0 +1,195 @@
+body{
+    background:#fa4251;
+}
+#title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #FFF;
+}
+#description{
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content-encabezado{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+}
+#compu1{
+    width: 40%;
+    padding: 5% 0% 0% 10%;
+    display: block;
+    margin: auto;
+}
+#compu2{
+    width: 40%;
+    padding: 5% 0% 0% 10%;
+    display: block;
+    margin: auto;
+}
+
+#survery-form{
+    background: #FFF;
+    opacity: 0.85;
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 1%;
+    border-radius: 7px;
+}
+#content-componentes{
+    margin:1%;
+    border: solid;
+    border-color: #FFF;
+   
+}
+.campoTexto{
+     margin: 5%;
+     
+}
+.labelText{
+    display: inline-block;
+    font-size: 18px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    width: 95%;
+    box-sizing: content-box;
+    border: solid gray 2px;
+    padding: 5px;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::placeholder, option{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.radio-button{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.1rem;
+    min-width: 1.1rem;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labelRadio{
+    margin-top: 1%;
+    display: inline-block;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.checkbox-group{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.1rem;
+    min-width: 1.1rem;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit{
+    width: 80%;
+    padding: 8px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    background: #fa4251;
+    color: #FFF;
+
+}
+#submit:hover{
+    background: #FFF;
+    color: #fa4251;
+}
+@media (max-width: 900px){
+ #title{
+     font-size: 22px;
+ }  
+ #description{
+     font-size: 17px;
+ }
+ #survery-form{
+    width: 80%;
+ }
+ .text{
+     max-width: 95%;
+ }
+ .labelText{
+     font-size: 16px;
+ }
+ .labelRadio{
+    font-size: 16px;
+    text-align: justify;
+ }
+
+}
+@media (max-width: 600px){
+    #title{
+        font-size: 22px;
+    }  
+    #description{
+        font-size: 15px;
+    }
+    #survery-form{
+       width: 80%;
+    }
+    .text{
+        max-width: 95%;
+    }
+    .labelText{
+        font-size: 14px;
+    }
+    .labelRadio{
+       font-size: 14px;
+       text-align: justify;
+    }
+    #content-encabezado{
+        flex-direction: column;
+    }
+    #compu1{
+        display: none;
+    }
+    #compu2{
+        max-width: 100%;
+    }
+   
+   }
+   @media (max-width: 460px){
+    #title{
+        font-size: 22px;
+    }  
+    #description{
+        font-size: 15px;
+    }
+    #survery-form{
+       width: 90%;
+    }
+    .text{
+        max-width: 95%;
+    }
+    .labelText{
+        font-size: 14px;
+    }
+    .labelRadio{
+       font-size: 14px;
+    
+    }
+    #content-encabezado{
+        flex-direction: column;
+    }
+    #compu1{
+        display: none;
+    }
+    #compu2{
+        max-width: 100%;
+    }
+   
+   }

@@ -1,3 +1,3 @@
 # Formulario-PaginaWeb
- Esta pagina fue realizada con HTML Y CSS en esta pagina aplique los conocimientos que se adquirió en el curso de diseño web responsive en la plataforma de FreeCodeCamp
- Para visitar la pagina ingrese al sigueinte Link: https://axel212001.github.io/Formulario-PaginaWeb/
+This page was made with HTML AND CSS on this page apply the knowledge that was acquired in the responsive web design course on the FreeCodeCamp platform
+  To visit the page enter the following Link: https://axel212001.github.io/Formulario-PaginaWeb/

@@ -59,10 +59,11 @@ body{
 .text{
     width: 95%;
     box-sizing: content-box;
-    border: solid gray 2px;
+    border: solid gray 3px;
     padding: 5px;
     margin-top: 1%;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 1px 1px #000;
 }
 ::placeholder, option{
     font-family: Arial, Helvetica, sans-serif;
@@ -101,13 +102,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     border-radius: 4px;
+    border-color: #FFF;
     background: #fa4251;
     color: #FFF;
+    box-shadow: 1px 1px 1px 1px #000;
 
 }
+
 #submit:hover{
     background: #FFF;
     color: #fa4251;
+    border-color: #fa4251;
 }
 @media (max-width: 900px){
  #title{
